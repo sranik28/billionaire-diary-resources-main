@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>billionaire-Diary</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 shadow-2xl">
+                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3">
+                <article class="bg-base-100 shadow-xl my-20 p-3">
+                    <p class="text-center font-semibold text-2xl my-4">Name</p>
+                    <div class="card card-side">
+                        <figure><img src="images/frist.jpg" alt="Movie"/></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">New movie is released!</h2>
+                          <p>Click the button to watch on Jetflix app.</p>
+                          
+                        </div>
+                      </div>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
